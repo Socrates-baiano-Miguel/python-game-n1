@@ -4,9 +4,11 @@ print ('*********************************')
 
 numeroS = 29
 
-chute = input('Determine Um Número')
+chuteTxt = input('Determine Um Número')
 
-print('Você digitou o número', chute )
+print('Você digitou o número', chuteTxt )
+
+chute = int(chuteTxt)
 
 if numeroS == chute: 
     
